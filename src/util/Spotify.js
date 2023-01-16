@@ -4,7 +4,7 @@ let accessToken = '';
 let expirationTime = 0;
 
 let client_id = '07cef032f3854c61acda8179ab2d8cb5';
-let redirect_uri = 'https://alatunes.netlify.app/';
+let redirect_uri = window.location.href;
 
 let scope = 'playlist-modify-private playlist-modify-public';
 
